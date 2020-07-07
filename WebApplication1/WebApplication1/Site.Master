@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+    <title><%: Page.Title %> - Restaurante El Buen Paladar ASP.NET</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -39,31 +39,31 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" runat="server" href="~/">Nombre de la aplicación</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Inicio</a></li>
-                        <li><a runat="server" href="~/About">Acerca de</a></li>
-                        <li><a runat="server" href="~/Contact">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
+
+            <h1>Restaurante El Buen Paladar</h1>
+             <h2>Donde comer es un placer... ven y disfruta nuestros ricos potajes</h2>
+             <p>En <strong>El Buen Paladar</strong> queremos que disfrutes… por eso siéntate, relájate y empieza a disfrutar… tu comida se va a preparar al momento tenlo por seguro!!!!!</p> 
+             <p>Elige el plato que disfrutarás el día de hoy</p>
+    <table>
+        <tr>
+            <td><img src="Imagenes/arroz-con-pollo.jpg" alt="arroz con pollo"></td>
+            <td><img src="Imagenes/cau-cau.jpg" alt="cau cau"></td>
+            <td><img src="Imagenes/ceviche.jpg" alt="ceviche"></td>
+        </tr>
+        <tr>
+            <td><img src="Imagenes/chaufa.jpg" alt="chaufa"></td>
+            <td><img src="Imagenes/huancaina.jpg" alt="papa a la huancaina"></td>
+            <td><img src="Imagenes/lomo-saltado.jpg" alt="lomo saltado"></td>
+        </tr>
+    </table>
+            <p>Visítanos en Calle Los Geranios Nº 777, San Vicente de Cañete</p>
+
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Restaurante El Buen Paladar ASP.NET</p>
             </footer>
         </div>
 

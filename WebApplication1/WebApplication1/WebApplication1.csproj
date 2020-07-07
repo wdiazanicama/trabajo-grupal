@@ -125,6 +125,12 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Imagenes\arroz-con-pollo.JPG" />
+    <Content Include="Imagenes\cau-cau.JPG" />
+    <Content Include="Imagenes\ceviche.JPG" />
+    <Content Include="Imagenes\chaufa.JPG" />
+    <Content Include="Imagenes\huancaina.JPG" />
+    <Content Include="Imagenes\lomo-saltado.JPG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
